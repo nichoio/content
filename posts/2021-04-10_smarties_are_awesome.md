@@ -82,48 +82,29 @@ Sample text here...
 Syntax highlighting
 
 ``` python
+# Python
 x = 1
 if x == 1:
     # indented four spaces
     print("x is 1.")
 ```
+``` js
+// Node
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+```
 
-~~~~~python
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-~~~~~
-
-`````
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-`````{.python}
-
-`````python
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-`````
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+```java
+// Java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+```
 
 
 ## Links
