@@ -81,13 +81,33 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
+``` python
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
 ```
+
+~~~~~python
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
+~~~~~
+
+`````
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
+`````{.python}
+
+`````python
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
+`````
 
 ## Tables
 
