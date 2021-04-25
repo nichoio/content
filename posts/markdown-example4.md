@@ -1,4 +1,4 @@
-# h1 Heading 8-)
+# Content without code
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -63,49 +63,41 @@ Start numbering with offset:
 
 ## Code
 
-Inline `code`
+Inline code
 
 Indented code
 
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
+Some comments
+line 1 of code
+line 2 of code
+line 3 of code
 
 
 Block code "fences"
 
-```
 Sample text here...
-```
 
 Syntax highlighting
 
-``` python
 # Python
 x = 1
 if x == 1:
     # indented four spaces
     print("x is 1.")
-```
-``` js
+
 // Node
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello World');
 });
-```
 
-```java
 // Java
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
     }
 }
-```
-
 
 ## Links
 
